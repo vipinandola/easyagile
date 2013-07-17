@@ -13,7 +13,7 @@ else
 	$res=mysqli_query($con,$sql);
 	while($row=mysqli_fetch_array($res)
 	{
-	echo $row[0];
+	echo $row[0];echo "new";
 	}
 	
 	
